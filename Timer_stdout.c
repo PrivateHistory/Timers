@@ -12,7 +12,7 @@ int main()
     //print every loop
     printf("Wait for one second and...\n");
     //sleep for t seconds
-    nanosleep(&t,NULL);
+    nanosleep(&time,NULL);
     //the message is usully writen in buffer so it can happen that the message do not appear the buffer is flashed
 
   // use fflush to move data to console
